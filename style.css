@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style du header */
+header {
+    background-color: #333;
+    padding: 10px 0;
+    color: white;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: flex;
+    margin: 25px;              /*marge entre les different lien*/
+     position: relative;
+    left: 190px;             /* reculer les lien a gauche*/
+     top: 10px;          /* descente legere des liens*/
+    }
+
+/*
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+.user-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.user-list li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.user-info p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.user-links {
+    margin-top: 10px;
+}
+
+.user-links a {
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.user-links a:hover {
+    text-decoration: underline;
+}
+
+ /*Style pour les liens de boutons */
+ .user-links {
+    margin-top: 10px; /* Ajoute un espace en haut des boutons */
+    display: flex; /* Utilise Flexbox pour aligner les éléments horizontalement */
+}
+
+.user-links a {
+    text-decoration: none; /* Supprime le soulignement par défaut des liens */
+    color: #fff; /* Couleur du texte blanche */
+    padding: 6px 12px; /* Ajoute un espace autour du texte */
+    border-radius: 4px; /* Arrondit les coins du bouton */
+    cursor: pointer; /* Définit le curseur de la souris en pointer */
+    transition: background-color 0.3s; /* Ajoute une transition de couleur au survol */
+    margin-right: 10px; /* Ajoute un espacement entre les boutons */
+}
+
+.user-links a.btn-modifier {
+    background-color: #98a1ff; /* Couleur de fond verte pour le bouton Modifier  #28a745*/
+    margin-left: 10px; /* Ajoute un espacement à gauche du bouton Modifier */
+}
+
+.user-links a.btn-supprimer {
+    background-color: #dc3545; /* Couleur de fond rouge pour le bouton Supprimer */
+}
+
+.user-links a.btn-modifier:hover,
+.user-links a.btn-supprimer:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Change la couleur de fond au survol */
+}
